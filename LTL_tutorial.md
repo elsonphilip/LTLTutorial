@@ -34,7 +34,7 @@ When turning human requests into LTL, most instructions fit into two types of ma
 To prevent broken or incorrect logic from reaching the system, translation has to be done in three steps:
 
 1. **Examples First:** The LLM needs to be given a few examples of English text paired with valid LTL syntax so it learns the expected format.
-2. **Syntax Check:** Pass the generated LTL string through a parser (like the spot library or flloat).
+2. **Syntax Check:** The generated LTL string should go through a parser (like the spot library or flloat).
 3. **Auto Fix:** If the parser flags a syntax error, that error message needs to be sent back to the LLM so it can fix its output automatically.
 
 
