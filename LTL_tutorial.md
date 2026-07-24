@@ -1,4 +1,4 @@
-### Guide to LTL and LLMs
+### Tutorial on how to use LTL 
 
 ### What is LTL?
 Standard logic only looks at a single moment in time (where something is True or False at the moment it's being checked). Linear Temporal Logic (LTL) adds time, and describes how a system should behave across a sequence of steps over time (s0, s1, s2, and so on).
