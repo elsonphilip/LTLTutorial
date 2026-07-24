@@ -7,7 +7,7 @@ Combining LLMs with LTL solves a big problem:
 - LLMs are great at understanding human language, but they are not reliable for strict math or safety rules.
 - Model checkers and planners need strict mathematical rules to run, but they cannot understand human instructions.
 
-Using an LLM as a translator lets us take plain English and turn it into verified LTL formulas that a robot or software system can run safely.
+Using an LLM as a translator helps take plain English and turn it into verified LTL formulas that a robot or software system can run safely.
 
 ### Basic Operators
 On top of the standard logic operators (AND, OR, NOT, Implies), LTL uses four main temporal operators:
